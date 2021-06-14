@@ -24,34 +24,19 @@ body{
 }
 
 .hero--main__logo {
-    margin-top: 166px;
-    max-height: 260px;
+    margin-top: 139px;
+    max-height: 259px;
     padding-bottom: 55px;
 }
 
-.line-1{
-  font-family: 'PT Sans', sans-serif;
+.txt-type {
+    font-family: 'PT Sans', sans-serif;
     letter-spacing: 4.4px;
-    margin: 0 137px auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 50px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
+    margin: 0 auto 140px;
+    font-size: 3.9vw;
 }
 
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 13.5em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
+
 
 @media screen and (max-width: 667px) {
 
@@ -61,11 +46,10 @@ body{
 
   .hero--main__logo {
     max-width: 80%;
-    margin-top: 60vw;
+    margin-top: 37vw;
   }
-
-  .line-1 {
-    max-width: 90%;
+  .txt-type{
+    max-width: 100%;
     font-size: 6.6vw;
     letter-spacing: 2px;
   }
