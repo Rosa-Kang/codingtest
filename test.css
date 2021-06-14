@@ -60,12 +60,13 @@ body{
   }
 
   .hero--main__logo {
-    max-width: 81%;
+    max-width: 80%;
     margin-top: 60vw;
   }
 
   .line-1 {
-    font-size: 25px;
+    max-width: 90%;
+    font-size: 6.6vw;
     letter-spacing: 2px;
   }
 
